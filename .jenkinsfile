@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'npm22 --version'
+                sh 'npm2 --version'
             }
         }
     }
