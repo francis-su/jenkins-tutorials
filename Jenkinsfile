@@ -8,3 +8,7 @@ pipeline {
         }
     }
 }
+
+node {
+    checkout scm
+}
